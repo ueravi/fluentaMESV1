@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F16B34A-F7D9-495C-3360-87EEFF185469" name="SOH">
+<createdBy>Admin</createdBy>
+<createdTime>2026-01-19 16:32:33 UTC</createdTime>
+<ownerDesignName>OrgStrV1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="soid" id="91BAD560-2E3D-F9F1-96B1-13B98C084D13">
+<createdBy>Admin</createdBy>
+<createdTime>2026-01-19 16:33:23 UTC</createdTime>
+<ownerDesignName>OrgStrV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custname" id="9767F325-D3BB-271B-C404-04F31C23B132">
+<createdBy>Admin</createdBy>
+<createdTime>2026-01-19 16:33:23 UTC</createdTime>
+<ownerDesignName>OrgStrV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42ED72CE-93F4-DAC1-D1C6-CAC0CDDA4CBE" name="SOH_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2026-01-19 16:33:23 UTC</createdTime>
+<ownerDesignName>OrgStrV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91BAD560-2E3D-F9F1-96B1-13B98C084D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
